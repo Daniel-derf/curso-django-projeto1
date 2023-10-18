@@ -14,7 +14,7 @@ def home(request):
 
 
 def sobre(request):
-    return HttpResponse("SOBRE")
+    return render(request, "temp/temp.html")
 
 
 def contato(request):
